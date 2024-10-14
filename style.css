@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+@charset "UTF-8";
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: grey;
+	background-color: #f9f9f9;
+	margin:0;
+	padding:30px 60px 30px;
+	max-width: 1800px;
+}
+
+a:link {
+    color: grey;
+    text-decoration:none;
+    font-weight: 800;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+    font-weight: 800;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 34px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 150px;
+	line-height: 0.8;
+    font-weight: 800;
+    margin: 0;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+h4 {
+	font-size: 15px;
+	line-height: 1.2;
+    font-weight: 300;
+}
+
+h5 {
+	font-size: 12px;
+	line-height: 120%;
+    font-weight: 800;
+    margin: 0;
+}
+
+h6 {
+	font-size: 15px;
+	line-height: 1.2;
+    font-weight: 800;
+}
+
+.svg {
+	width: 74px;
+}
+
+.svg2 {
+	width: 74px;
+}
+
+#nextcontainer {
+	position: fixed;
+	top: 0;
+  	right: 60px;
+    height: 120px;
+    width: 94px;
+  	clear: both;
+  	align-items: center;
+}
+
+#next{
+   	position: absolute;
+   	top: 50%;
+   	right: 0;
+}
+
+#logo {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	float: left;
+}
+
+#copyright {
+	clear: both;
+}
+
+#about {
+	padding-top: 30px;
+}
+
+#clients{
+	padding-top: 60px;
+}
+
+#project {
+	clear: both;
+}
+
+#works {
+	padding-top: 60px;
+}
+
+#imgswork {
+	padding-bottom: 80px;
+}
+
+#imgswork>img {
+	width: 100%;
+	height: auto;
+	display: block;
+	max-width: 1200px;
+}
+
+#logocliente {
+	float: left;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+	float: left;
+}
+
+#visitsite {
+	padding-top: 80px;
+	padding-left: 30px;
+}
