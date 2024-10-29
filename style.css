@@ -122,6 +122,11 @@ h6 {
     font-weight: 800;
 }
 
+.imagem-pequena {
+  width: 150px; /* Ajuste para o tamanho desejado */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
 .svg {
 	width: 74px;
 }
@@ -169,11 +174,11 @@ h6 {
 }
 
 #works {
-	padding-top: 60px;
+	padding-top: 56px;
 }
 
 #imgswork {
-	padding-bottom: 80px;
+	padding-bottom: 56px;
 }
 
 #imgswork>img {
